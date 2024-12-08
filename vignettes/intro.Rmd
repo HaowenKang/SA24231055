@@ -360,7 +360,7 @@ cat(sprintf("最终的测试准确率: %.4f\n", final_test_acc))
 
 ##### Rcpp 实现
 
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 # 调用 Softmax Rcpp 版本函数进行训练
 model_softmax_Cpp <- softmaxCpp(X_train, y_train, X_test, y_test, learning_rate = 0.01, epochs = 100)
 
@@ -545,7 +545,7 @@ print(paste("R语言实现的决策树算法在测试集上的准确率：", rou
 ```{r, eval=TRUE}
 # 计算某个特征的信息增益（例如第二个特征）
 gain <- informationGainCpp(films_train, "V2")
-print(paste("特征 V1 的信息增益：", gain))
+print(paste("特征 V2 的信息增益：", gain))
 ```
 
 **代码概述：**
