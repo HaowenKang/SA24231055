@@ -1,0 +1,30 @@
+Package: SA24231055
+Type: Package
+Title: A Collection of Machine Learning Algorithms and Visualization Tools
+Version: 1.0
+Date: 2024-12-07
+Author: Haowen Kang
+Maintainer: Haowen Kang <2205229324@qq.com>
+Description: This package provides implementations of various machine learning algorithms, including decision trees, k-means clustering, Naive Bayes, softmax, and spectral clustering, along with visualization tools to plot the results of these algorithms. It is designed to be used for both educational purposes and practical applications in data analysis.
+License: GPL (>= 2)
+Imports:
+    DiagrammeR,
+    RColorBrewer,
+    data.tree,
+    ggplot2,
+    matrixStats,
+    reshape2,
+    stats,
+    Rcpp,
+    microbenchmark
+LinkingTo: 
+    Rcpp, 
+    RcppArmadillo
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+Suggests: 
+    knitr, 
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/HaowenKang/SA24231055
+BugReports: https://github.com/HaowenKang/SA24231055/issues
